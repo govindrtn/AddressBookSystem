@@ -57,14 +57,12 @@ public static void main(String[] args) {
 			phoneNumber = scanner.next();
 			
 			contact[i] = new Contacts(firstName, lastName , address, city, zip, email ,phoneNumber);
-
 		}
 		
 		for (int i = 0 ; i<contact.length; i++) 
 		{
 			System.out.println(contact[i]);
 		}
-		
 	}
 	private static void editContacts(Scanner scanner , Contacts[] contact, String email) 
 	{
@@ -109,7 +107,6 @@ public static void main(String[] args) {
 			contact[i].setPhoneNumber(phoneNumber);
 			
 			}
-
 		}
 		
 		for (int i = 0 ; i<contact.length; i++) 
